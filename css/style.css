@@ -1,3 +1,4 @@
+/* GERAL */
 @font-face{
         src: url(../fonts/OpenSans-Light.ttf);
         font-family: "Open-Sans";
@@ -14,6 +15,9 @@ html, body{
         height: 100%;
 }
 
+body{
+        overflow-x: hidden;
+}
 
 
 .context{
@@ -21,11 +25,14 @@ html, body{
         margin: 0 auto;
 }
 
+/* CABEÇALHO */
 .main-header{
         background-color: #212343;
         padding: 2%;
 }
 
+
+/* BANNER */
 .banner{
         width: 100vw;
         height: 70vh;
@@ -40,6 +47,7 @@ html, body{
         align-items: center;
 }
 
+/* CARD ROXO LISTA */
 .blue-card{
         width: 50%;
         padding:4%;
@@ -55,16 +63,19 @@ html, body{
         margin-bottom: 0;
 }
 
+
+/* FORM */
 .banner_form{
         width: 30%;
         margin-top: -3%;
-        border: 6px solid #cccccc;
+        border: 6px solid  rgba(120, 120, 120, 0.5);
         padding: 2%;
         color: #999;
         background-color: #fff;
+        background-clip: padding-box; /* é o que proporciona a transparencia para borda*/
 }
 
-.banner_form h1{
+.banner_form h2{
         font-weight: normal;
         font-size: 16px;
 }
@@ -108,3 +119,38 @@ button {
 button:hover{
         background-color: #222444;
 }
+
+/* CONTAINER CINZA */
+.gray-container{
+        background-color: #dddddd;
+        padding: 3% 0 4%;
+        margin-bottom: 10%;
+}
+
+.gray-container__flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.gray-container h1{
+        color: #000000;
+        font-size: 25px;
+        margin-bottom: 2%;
+}
+
+.gray-container p{
+        color: #686767;
+        text-align: justify;
+        width: 80%;
+}
+
+.arrow-icon{
+        width: 40px;
+        height: 40px;
+        background-image: url(../images/arrow.png);
+        background-size: cover;
+        position: relative;
+        top: 70px;
+}
+

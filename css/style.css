@@ -156,7 +156,7 @@ button:hover{
 
 /* SECOES */
 .section-one{
-        padding: 5%;
+        padding: 5% 0 10%;
 }
 
 .section-one h2{
@@ -187,6 +187,14 @@ button:hover{
 
 .section-one__cols p{
         text-align: justify;
+}
+
+/* FOOTER */
+.footer{
+        background-color: #212343;
+        padding: 3%;
+        color: #fff;
+        text-align: center;    
 }
 
 

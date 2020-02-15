@@ -124,7 +124,7 @@ button:hover{
 .gray-container{
         background-color: #dddddd;
         padding: 3% 0 4%;
-        margin-bottom: 10%;
+       
 }
 
 .gray-container__flex{
@@ -153,4 +153,45 @@ button:hover{
         position: relative;
         top: 70px;
 }
+
+/* SECOES */
+.section-one{
+        padding: 5%;
+}
+
+.section-one h2{
+        color: #806993;
+        text-align: center;
+        margin-bottom: 8%;
+}
+
+.section-one__flex{
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.section-one__cols{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.section-one__cols img{
+        width: 50px;
+}
+
+.section-one__cols h3{
+        margin: 5% 0 3%;
+}
+
+.section-one__cols p{
+        text-align: justify;
+}
+
+
+
+
+
+
 

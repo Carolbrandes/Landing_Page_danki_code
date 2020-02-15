@@ -45,6 +45,8 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        
 }
 
 /* CARD ROXO LISTA */
@@ -123,8 +125,7 @@ button:hover{
 /* CONTAINER CINZA */
 .gray-container{
         background-color: #dddddd;
-        padding: 3% 0 4%;
-       
+        padding: 3% 0 4%;    
 }
 
 .gray-container__flex{
@@ -168,6 +169,7 @@ button:hover{
 .section-one__flex{
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 }
 
 .section-one__cols{
@@ -195,6 +197,99 @@ button:hover{
         padding: 3%;
         color: #fff;
         text-align: center;    
+}
+
+@media screen and (max-width: 1200px){
+        .banner{
+                height: 40vh;  
+        }
+
+        .banner_form{
+                width: 45%;     
+        }
+
+        .gray-container{
+                padding: 5% 0 7%;    
+        }
+
+        .section-one{
+                padding: 8% 0 12%;
+        }
+
+        .section-one__cols{
+                width: 40%;
+                margin-bottom: 8%;
+        }
+
+        .section-one h2{
+                margin-bottom: 12%;
+        }
+
+}
+
+@media screen and (max-width: 700px){
+        .banner{
+                height: 100vh;
+                padding: 8%;  
+        }
+
+        .banner-flex{
+                flex-direction: column-reverse;
+                        
+        }
+        
+        .blue-card{
+                width: 90%;
+                padding: 10%;
+                margin-top: 10%;
+        }
+
+        .banner_form{
+                width: 90%; 
+                padding: 5%; 
+        }
+
+        .gray-container{
+                padding: 5% 0 7%;    
+        }
+
+        .arrow-icon{
+                top: 50px;
+        }
+
+        .section-one{
+                padding: 12% 0 15%;
+        }
+
+        .section-one__flex{
+                justify-content: center;  
+        }
+
+        .section-one__cols{
+                width: 90%;
+                margin-bottom: 8%;
+        }
+
+        .section-one h2{
+                margin-bottom: 12%;
+        }
+
+}
+
+@media screen and (max-width: 375px){
+
+        .banner{
+                height: 70vh;      
+        }
+
+        .gray-container{
+                padding: 90% 0 7%;    
+        }
+
+        .blue-card{
+                margin-top: 50%;
+        }
+      
 }
 
 

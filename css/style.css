@@ -27,6 +27,7 @@ body{
 
 /* CABEÇALHO */
 .main-header{
+        width: 100vw;
         background-color: #212343;
         padding: 2%;
 }
@@ -193,6 +194,7 @@ button:hover{
 
 /* FOOTER */
 .footer{
+        width: 100vw;
         background-color: #212343;
         padding: 3%;
         color: #fff;

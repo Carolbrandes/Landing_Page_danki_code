@@ -201,7 +201,7 @@ button:hover{
 
 @media screen and (max-width: 1200px){
         .banner{
-                height: 40vh;  
+                height: 100vh;  
         }
 
         .banner_form{
@@ -229,7 +229,6 @@ button:hover{
 
 @media screen and (max-width: 700px){
         .banner{
-                height: 100vh;
                 padding: 8%;  
         }
 
@@ -241,20 +240,22 @@ button:hover{
         .blue-card{
                 width: 90%;
                 padding: 10%;
-                margin-top: 10%;
+                margin-top: 20%;
         }
 
         .banner_form{
-                width: 90%; 
+                width: 75%; 
                 padding: 5%; 
+               
+                
         }
 
         .gray-container{
-                padding: 5% 0 7%;    
+                padding: 75% 0 7%;    
         }
 
         .arrow-icon{
-                top: 50px;
+                top: 60px;
         }
 
         .section-one{
@@ -278,9 +279,7 @@ button:hover{
 
 @media screen and (max-width: 375px){
 
-        .banner{
-                height: 70vh;      
-        }
+     
 
         .gray-container{
                 padding: 90% 0 7%;    
